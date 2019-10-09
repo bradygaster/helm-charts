@@ -1,0 +1,11 @@
+apiVersion: v1
+entries:
+  aspnetcore-razorapp:
+  - apiVersion: v1
+    created: 2019-10-09T08:33:22.567132062-07:00
+    description: A basic ASP.NET Core 3.0 Razor App
+    digest: 3a7858cb83b33c23610ca8849724332a9479d9589d7a7a2a5946666203e4be10
+    name: aspnetcore-razorapp
+    urls:
+    - https://github.com/bradygaster/helm-charts/entries/aspnetcore-razorapp.tgz
+    version: 0.1.0
