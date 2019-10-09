@@ -16,5 +16,5 @@ entries:
     digest: c68c7019fb82c5a593b5de329cafb6bc69e1b22713be54e355d82b7bb253d844
     name: netcore-worker
     urls:
-    - https://github.com/bradygaster/helm-charts/blob/master/entries/netcore-worker-0.3.0.tgz?raw=true
-    version: 0.3.0
+    - https://github.com/bradygaster/helm-charts/blob/master/entries/netcore-worker-0.4.0.tgz?raw=true
+    version: 0.4.0
