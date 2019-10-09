@@ -1,9 +1,12 @@
-apiVersion: apps/v1beta1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: netcore-worker-{{.Release.Name}}
 spec:
   replicas: 1
+  selector:
+    matchLabels:
+      app: netcore-worker-{{.Release.Name}}
   template:
     metadata:
       labels:
@@ -12,6 +15,7 @@ spec:
       containers:
       - name: netcore-worker-{{.Release.Name}}
         image: bradygaster/netcore-worker:latest
-        env:
-        - name: DELAY
-          value: {{ .Values.DELAY }}
+        resources:
+          limits:
+            cpu: 250m
+            memory: 256Mi

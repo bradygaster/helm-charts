@@ -17,5 +17,5 @@ helm repo add aspnetcore-samples https://raw.githubusercontent.com/bradygaster/h
 Then, install the worker into your cluster:
 
 ```bash
-helm install aspnetcore-samples/netcore-worker --namespace aspnetcore --set DELAY=5000
+helm install aspnetcore-samples/netcore-worker --namespace aspnetcore
 ```
