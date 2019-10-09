@@ -1,0 +1,6 @@
+# UI controll
+title: "ASP.NET Core 3.0 on Kubernetes"
+
+# Service controlls
+serviceName: aspnetcore-razorapp
+serviceType: ClusterIP
