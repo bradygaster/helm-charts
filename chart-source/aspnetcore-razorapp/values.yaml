@@ -1,5 +1,5 @@
 # UI controll
-title: "ASP.NET Core 3.0 Razor App on Kubernetes"
+TITLE: "ASP.NET Core 3.0 Razor App on Kubernetes"
 
 # Service controlls
 serviceName: aspnetcore-razorapp
