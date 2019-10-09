@@ -1,4 +1,4 @@
 # amount of time, in milliseconds, to wait during execution
-# DELAY: "1000"
+DELAY: "5000"
 
 serviceName: netcore-worker
