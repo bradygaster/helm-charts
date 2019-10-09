@@ -24,3 +24,7 @@ spec:
           serviceName: ingress-demo
           servicePort: 80
         path: /hello-world-two(/|$)(.*)
+      - backend:
+          serviceName: aspnetcore-razorapp
+          servicePort: 80
+        path: /aspnetcore-razorapp(/|$)(.*)
