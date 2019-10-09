@@ -9,3 +9,12 @@ entries:
     urls:
     - https://github.com/bradygaster/helm-charts/blob/master/entries/aspnetcore-razorapp-0.2.0.tgz?raw=true
     version: 0.2.0
+  netcore-worker:
+  - apiVersion: v1
+    created: 2019-10-10T08:33:22.567132062-07:00
+    description: A basic Core 3.0 Worker Service
+    digest: c68c7019fb82c5a593b5de329cafb6bc69e1b22713be54e355d82b7bb253d844
+    name: netcore-worker
+    urls:
+    - https://github.com/bradygaster/helm-charts/blob/master/entries/netcore-worker-0.1.0.tgz?raw=true
+    version: 0.1.0

@@ -1,0 +1,17 @@
+apiVersion: apps/v1beta1
+kind: Deployment
+metadata:
+  name: netcore-worker-{{.Release.Name}}
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: netcore-worker-{{.Release.Name}}
+    spec:
+      containers:
+      - name: netcore-worker-{{.Release.Name}}
+        image: bradygaster/netcore-worker:latest
+        env:
+        - name: DELAY
+          value: {{ .Values.DELAY }}
