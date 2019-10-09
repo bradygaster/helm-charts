@@ -7,5 +7,5 @@ entries:
     digest: 3a7858cb83b33c23610ca8849724332a9479d9589d7a7a2a5946666203e4be10
     name: aspnetcore-razorapp
     urls:
-    - https://github.com/bradygaster/helm-charts/entries/aspnetcore-razorapp.tgz
+    - https://github.com/bradygaster/helm-charts/blob/master/entries/aspnetcore-razorapp.tgz?raw=true
     version: 0.1.0
