@@ -16,7 +16,7 @@ spec:
         - containerPort: 80
         env:
         - name: TITLE
-          value: {{ .Values.title }}
+          value: {{ .Values.TITLE }}
 ---
 apiVersion: v1
 kind: Service
